@@ -18,7 +18,6 @@ const ProductItem = (props) => {
     dispatch(cartActions.addItemToCart(newItem));
   };
 
-
   return (
     <li className={classes.item}>
       <Card>
